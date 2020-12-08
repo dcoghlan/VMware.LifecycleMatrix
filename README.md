@@ -1,17 +1,17 @@
-# VMware.LifeCycleMatrix
+# VMware.LifecycleMatrix
 
 A Powershell module to interact with the VMware Product Lifecycle Matrix website (<https://lifecycle.vmware.com>)
 
 This module is not supported by VMware, and comes with no warranties express or implied. Please test and validate its functionality before using this product in a production environment.
 
-## Installing VMware.LifeCycleMatrix
+## Installing VMware.LifecycleMatrix
 
 ### Powershell Gallery
 
-VMware.LifeCycleMatrix is available from the PowerShell Gallery. Run the following command in a PowerShell session to install the module:
+VMware.LifecycleMatrix is available from the PowerShell Gallery. Run the following command in a PowerShell session to install the module:
 
 ```PowerShell
-Install-Module VMware.LifeCycleMatrix
+Install-Module VMware.LifecycleMatrix
 ```
 
 ### Manual Install
@@ -27,17 +27,17 @@ $env:PSModulePath
 Navigate to one of the paths returned from the command above, and create a new directory for the module
 
 ```PowerShell
-New-Item VMware.LifeCycleMatrix -ItemType Directory
+New-Item VMware.LifecycleMatrix -ItemType Directory
 ```
 
-Download the `.psd1` and `.psm1` files from <https://github.com/dcoghlan/VMware.LifeCycleMatrix/tree/main/module> and save them to the directory created above.
+Download the `.psd1` and `.psm1` files from <https://github.com/dcoghlan/VMware.LifecycleMatrix/tree/main/module> and save them to the directory created above.
 
 ## Loading the module
 
-Once the VMware.LifeCycleMatrix module is loaded onto your system, run the following command to import the module for use:
+Once the VMware.LifecycleMatrix module is loaded onto your system, run the following command to import the module for use:
 
 ```PowerShell
-Import-Module VMware.LifeCycleMatrix
+Import-Module VMware.LifecycleMatrix
 ```
 
 ## What's Available
@@ -45,7 +45,7 @@ Import-Module VMware.LifeCycleMatrix
 There are only a couple of cmdlets in this module. To view them all, run the following command:
 
 ```PowerShell
-Get-Command -Module VMware.LifeCycleMatrix
+Get-Command -Module VMware.LifecycleMatrix
 ```
 
 Each available cmdlet will return details and examples via the built-in Get-Help cmdlet.
@@ -75,7 +75,7 @@ PS > Connect-PLMServer -Quiet
 PS>
 ```
 
-### List all products available on the VMware Product LifeCycle Matrix website
+### List all products available on the VMware Product Lifecycle Matrix website
 
 ```PowerShell
 PS > Get-PLMProduct | ft
@@ -107,7 +107,7 @@ ESXi 7.0                                                                        
 </SNIPPED>
 ```
 
-### List all products available on the VMware Product LifeCycle Matrix website that have a status of SUPPORTED
+### List all products available on the VMware Product Lifecycle Matrix website that have a status of SUPPORTED
 
 ```PowerShell
 PS > Get-PLMProduct -Supported | ft
@@ -139,7 +139,7 @@ ESXi 7.0                                                                        
 </SNIPPED>
 ```
 
-### List all products available on the VMware Product LifeCycle Matrix website that have a status of UNSUPPORTED
+### List all products available on the VMware Product Lifecycle Matrix website that have a status of UNSUPPORTED
 
 ```Powershell
 PS > Get-PLMProduct -Unsupported | ft

@@ -269,10 +269,10 @@ Function Get-InterestingResults {
 Function Connect-PLMServer {
     <#
     .SYNOPSIS
-    Creates a connection to the VMware Product LifeCycle Matrix server.
+    Creates a connection to the VMware Product Lifecycle Matrix server.
 
     .DESCRIPTION
-    Creates a connection to the VMware Product LifeCycle Matrix server. Once a 
+    Creates a connection to the VMware Product Lifecycle Matrix server. Once a 
     connection has been established via this cmdlet, the details are saved in a
     connection object called $DefaultPLMConnection with a scope of Global.
     
@@ -354,10 +354,10 @@ Function Connect-PLMServer {
 Function Get-PLMProduct {
     <#
     .SYNOPSIS
-    Retrieve the list of products available on the VMware LifeCycle Matrix website.
+    Retrieve the list of products available on the VMware Lifecycle Matrix website.
     
     .DESCRIPTION
-    Retrieve the list of products available on the VMware LifeCycle Matrix website.
+    Retrieve the list of products available on the VMware Lifecycle Matrix website.
     
     .PARAMETER Supported
     When specified, the -Supported switch will return only products marked by 
@@ -375,12 +375,12 @@ Function Get-PLMProduct {
     .EXAMPLE
     Get-PLMProduct
 
-    Retrieve all the products listed on the VMware LifeCycle Matix website.
+    Retrieve all the products listed on the VMware Lifecycle Matix website.
     
     .EXAMPLE
     Get-PLMProduct | FT
 
-    Retrieve all the products listed on the VMware LifeCycle Matix website and 
+    Retrieve all the products listed on the VMware Lifecycle Matix website and 
     display them in a nicely formatted table.
 
     .EXAMPLE
