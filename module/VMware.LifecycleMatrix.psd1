@@ -12,7 +12,7 @@
     RootModule             = 'VMware.LifecycleMatrix.psm1'
 
     # Version number of this module.
-    ModuleVersion          = '1.0.0'
+    ModuleVersion          = '1.0.1'
 
     # Supported PSEditions
     # CompatiblePSEditions = @()
@@ -30,7 +30,7 @@
     Copyright              = '(c) dcoghlan. All rights reserved.'
 
     # Description of the functionality provided by this module
-    Description            = 'VMware.CfgMax is an Powershell module which allows basic interactions with the VMware Product LifeCycle Matrix webpage (lifecycle.vmware.com).
+    Description            = 'VMware.CfgMax is an Powershell module which allows basic interactions with the VMware Product Lifecycle Matrix webpage (lifecycle.vmware.com).
 This module is not supported by VMware, and comes with no warranties express or implied. Please test and validate its functionality before using in a production environment.'
 
 
