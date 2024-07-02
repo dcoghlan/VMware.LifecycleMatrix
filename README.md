@@ -1,5 +1,9 @@
 # VMware.LifecycleMatrix
 
+## 
+
+> **Important Update - July 2nd 2024** *The VMware Lifecycle Matrix website has been transitioned to the Broadcom Support Portal which has broken support for this module. I don't actively work on this module, so won't be investing the time to figuring out how to make it work again, however, I will leave this repo up and available for people to look at, and if anyone wants to figure out how to make this work again and submit a pull request, I will be happy to merge it.*
+
 A Powershell module to interact with the VMware Product Lifecycle Matrix website (<https://lifecycle.vmware.com>)
 
 This module is not supported by VMware, and comes with no warranties express or implied. Please test and validate its functionality before using this product in a production environment.
